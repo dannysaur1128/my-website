@@ -22,15 +22,21 @@
       to run a half marathon in early May hoping to get a time near 1 hour and 30 minutes so super excited for that. Hope this gives you a good picture of my interests 
       and lifestyles!  </p>
   
-  <img src="https://via.placeholder.com/300" alt="My Photo" style="width:300px;">
+  <img src="https://github.com/dannysaur1128/my-website/blob/main/Daniel%20Image.jpg" alt="My Photo" style="width:300px;">
 
     <p><b>Contact Me:</b></p>
     <ul>
-        <li>Email: <a href="mailto:youremail@gmail.com">youremail@gmail.com</a></li>
-        <li>Instagram: <a href="https://instagram.com">My Instagram</a></li>
+        <li>Email: <a href="mailto:danieljoung1128@gmail.com">danieljoung1128@gmail.com</a></li>
     </ul>
 
-    <p><a href="about.html">Learn more about my hobbies</a></p>
+    <button id="navigateButton">Go to About Page</button>
+
+    <script>
+        const navigateButton = document.getElementById('navigateButton');
+        navigateButton.addEventListener('click', function() {
+            window.location.href = 'about.html';
+        });
+    </script>
 
 </body>
 </html>
